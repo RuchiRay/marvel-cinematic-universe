@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -106,7 +106,7 @@ img {
   margin: -40px;
 }
 
-ul li {
+.contentBx ul li {
   list-style: none;
   transform: translateY(50px);
   opacity: 0;

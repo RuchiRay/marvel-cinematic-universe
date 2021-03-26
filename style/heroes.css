@@ -1,0 +1,183 @@
+body {
+  background: black;
+}
+/* page heading */
+.avengers .heading h2 {
+  color: #0e3742;
+  font-size: 4rem;
+  font-family: "Bree Serif", serif;
+  font-weight: 100;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, black);
+  line-height: 0.4em;
+
+  color: white;
+  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+    0 0 80px #03bcf4, 0 0 160px #03bcf4;
+}
+
+.avengers .heading {
+  margin: 20px;
+}
+
+/* main avengers div */
+.avengers {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid white; */
+  justify-content: center;
+  align-items: center;
+}
+.avengers .og-avengers {
+  /* border: 3px solid rgb(209, 231, 12); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+/* flip */
+.avengers .og-avengers .og-card {
+  /* border: 2px solid red; */
+  width: 306px;
+  height: 430px;
+  position: relative;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.og-card .cover {
+  /* border: 2px solid white; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background-color: #627792; */
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: all 0.5s ease-in;
+}
+.og-card:hover .cover {
+  transform: rotateY(-180deg);
+}
+figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+figure#front1 {
+  background: url(../images/ironfront.png) no-repeat center center/cover;
+}
+figure#back1 {
+  background: url(../images/ironback.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front2 {
+  background: url(../images/capf.jpg) no-repeat center center/cover;
+}
+figure#back2 {
+  background: url(../images/capb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front3 {
+  background: url(../images/thorf.jpg) no-repeat center center/cover;
+}
+figure#back3 {
+  background: url(../images/thorb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front4 {
+  background: url(../images/bwf.jpg) no-repeat center center/cover;
+}
+figure#back4 {
+  background: url(../images/bwb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front5 {
+  background: url(../images/hulkf.jpg) no-repeat center center/cover;
+}
+figure#back5 {
+  background: url(../images/hulkb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front6 {
+  background: url(../images/eyef.jpg) no-repeat center center/cover;
+}
+figure#back6 {
+  background: url(../images/eyeb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front7 {
+  background: url(../images/wandaf.jpg) no-repeat center center/cover;
+}
+figure#back7 {
+  background: url(../images/wandab.png) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front8 {
+  background: url(../images/spiderf.jpg) no-repeat center center/cover;
+}
+figure#back8 {
+  background: url(../images/spiderb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front9 {
+  background: url(../images/marvelf.jpg) no-repeat center center/cover;
+}
+figure#back9 {
+  background: url(../images/marvelb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front10 {
+  background: url(../images/bpf.jpg) no-repeat center center/cover;
+}
+figure#back10 {
+  background: url(../images/bpb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front11 {
+  background: url(../images/docf.jpg) no-repeat center center/cover;
+}
+figure#back11 {
+  background: url(../images/docb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+figure#front12 {
+  background: url(../images/antf.jpg) no-repeat center center/cover;
+}
+figure#back12 {
+  background: url(../images/antb.jpg) no-repeat center center/cover;
+  transform: rotateY(180deg);
+}
+
+/* inside each card */
+
+.info {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  margin: 0px;
+  color: #c69963;
+  font-family: 'Niconne', cursive;
+}
+.info h4 {
+  font-size: 2.6rem;
+  /* font-family: "Bree Serif", serif; */
+  margin: 0px;
+  text-decoration: underline;
+}
+.info p{
+  margin: 0px;
+  font-size: 1.7rem;
+  line-height: 30px;
+  text-align: center;
+  
+}
+.played{
+  text-decoration: underline;
+}
+
