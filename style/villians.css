@@ -1,0 +1,113 @@
+.villains .vilHead h2 {
+  font-size: 4rem;
+  font-family: "Bree Serif", serif;
+  font-weight: 100;
+  margin-top: 100px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, black);
+  line-height: 0.4em;
+  color: white;
+  text-shadow: 0 0 10px #08a356, 0 0 20px #03f46f, 0 0 40px #03f43f,
+    0 0 80px #03f46f, 0 0 160px #43e0be;
+}
+.villains {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid rgb(236, 11, 11); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 800px;
+  background: black;
+}
+.villains-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 4px solid black; */
+  flex-wrap: wrap;
+  position: relative;
+}
+.villains-box .vilCard {
+  height: 350px;
+  width: 250px;
+  /* border: 4px solid red; */
+  margin: 20px;
+  position: relative;
+}
+.villains-box .vilCard .shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    transition: 0.5s;
+}
+
+.villains-box .vilCard:hover .shapes{
+  transform: translateY(-30px);
+}
+.villains-box .vilCard .shapes img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.villains-box .vilCard .shapes .names{
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: linear-gradient(45deg,rgba(195,20,50,0.5),rgba(36,11,54,0.5)); */
+  /* background: linear-gradient(45deg,#03a9f4,rgba(3,169,244,0.5)); */
+  background: linear-gradient(to top, #000046, rgba(28,181,224,0.5));  
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+.villains-box .vilCard:hover .shapes .names{
+  opacity: 1;
+}
+.villains-box .vilCard .shapes .names p{
+  font-family: "Bree Serif", serif;
+  font-size: 3.5rem;
+  margin: 0;
+ 
+}
+.villains-box .vilCard .shapes .names a{
+  padding: 5px;
+}
+.villains-box .vilCard .shapes .names button{
+  border-radius: 20px;
+  border-color: white;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+}
+ .read{
+  color: white;
+  font-size: 2rem;
+  font-family: "Bree Serif", serif;
+}
+.read a{
+  border: 2px solid white;
+  border-radius: 35px;
+  background: linear-gradient(to top, #000046, rgb(28,181,224));
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+

@@ -1,6 +1,4 @@
-body {
-  background: black;
-}
+
 /* page heading */
 .avengers .heading h2 {
   color: #0e3742;
@@ -26,6 +24,8 @@ body {
   /* border: 3px solid white; */
   justify-content: center;
   align-items: center;
+  background:black;
+  
 }
 .avengers .og-avengers {
   /* border: 3px solid rgb(209, 231, 12); */
@@ -162,6 +162,7 @@ figure#back12 {
   position: absolute;
   margin: 0px;
   color: #c69963;
+  /* color: rgb(26, 218, 243); */
   font-family: 'Niconne', cursive;
 }
 .info h4 {
@@ -179,5 +180,8 @@ figure#back12 {
 }
 .played{
   text-decoration: underline;
+}
+.overview {
+  color: white;
 }
 

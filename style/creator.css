@@ -6,9 +6,10 @@ body {
 .creators {
   min-height: 800px;
   position: relative;
+  top: -45px;
   background: black;
 }
-h1 {
+.creators p {
   position: relative;
   top: 30px;
   text-align: center;
@@ -18,6 +19,7 @@ h1 {
   font-weight: 100;
   color: white;
   text-decoration: underline;
+  margin: 0;
 }
 .creators::before{
     content: "";
@@ -51,7 +53,7 @@ h1 {
   align-items: center;
  
 }
-img {
+.content img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
