@@ -120,9 +120,12 @@ body {
   opacity: 1;
 }
 .sci {
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
 ul li a {
   padding: 15px;
