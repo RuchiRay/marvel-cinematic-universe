@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Avengeance Heroic Avenger Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avengeance Heroic Avenger Bold Italic'), url('AVENGEANCE HEROIC AVENGER BI.woff') format('woff');
+    }
+    @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+  /* page heading */
+  
+  
+  /* main avengers div */
+  .OVERVIEW {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    /* justify-content: center; */
+    align-items: center;
+    background:white;
+    height: 800px;
+    
+  }
+  .overview h2{
+    font-size: 80px;
+          /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
+        background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    /* color: rgb(87, 32, 32); */
+    font-family: 'Avengeance Heroic Avenger Italic';
+    text-align: center;
+    margin: 0;
+    margin-top: 35px;
+  
+  }
+  
+  .information{
+    margin: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 1.7vw;
+    float: left;
+    width: 60%;
+    flex-grow: 3;
+  
+  }
+  .overview p{
+    margin: 0;
+  }
+  .mainLine p{
+    text-align: center;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;;
+    font-size: 24px;
+  
+  }
+  .founder p{
+    text-align: center;
+    margin: 0;
+  }
+  
+  .overviewinfo{
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;;
+  }
+  
+  .avengers-box{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 30%;
+    float: right;
+    border: 2px ;
+    height: 20%;
+    border: 1px solid black ;
+    flex-shrink: 4;
+    text-align: center;
+  }
+  .avengers-box img{
+    object-fit: cover;
+    height: 17%;
+    width: 100%;
+  }
+  .avengers-box .founder{
+    /* background-color: #0e3742; */
+    background-color: rgba(195,20,50,1);
+    color:rgba(226, 223, 223, 0.822);
+    font-size:calc(8px + 1vh);
+    height:fit-content;
+    
+  }
+  .avengers-box p{
+    font-size:calc(8px + 1vh);
+    line-height: inherit;
+  }

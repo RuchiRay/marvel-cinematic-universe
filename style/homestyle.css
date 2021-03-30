@@ -1,32 +1,40 @@
+@font-face {
+  font-family: 'Avengeance Heroic Avenger Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avengeance Heroic Avenger Italic'), url('AVENGEANCE HEROIC AVENGER AT.woff') format('woff');
+  }
+
 body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-.avengers-home{
+.home{
   position: relative;
   min-height: 100vh;
-  background:url(../images/avengers_3.jpg) ;
-  background-position: center;
+  overflow: hidden;
+  /* background:url(../images/avengers_3.jpg) ; */
+  background-image:linear-gradient(rgba(36,0,70,0.5), rgba(36,0,70,0.5)), url(../images/avengers_3.jpg);
+   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 #text {
-
+  
   position: absolute;
   top: 50%;
   left: 34%;
   transform: translate(-50%, -50%);
-   animation:  0.5s linear 0s slide forwards;
+  animation:  0.5s linear 0s slide forwards;
 }
-
-h1 {
+#text h1 {
+  font-family: 'Avengeance Heroic Avenger Italic';
   
-  font-family:'Montserrat', Arial, sans-serif;
-  font-size: 4vw;
+  color: rgb(255, 255, 255);
+  font-size: 4.1vw;
   font-weight: 700;
-  color: #fff;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-shadow: 0 0 0.15em #b6c0bf;
@@ -85,19 +93,16 @@ animation:shake 2.5s infinite, shine 2s forwards,flicker 3s infinite;
   22%,
   36%,
   75% {
-    color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    color: #fff8f8;
   }
   28%,
   33% {
-    color: #ff65bd;
+    color: #a3a3a3;
     text-shadow: none;
   }
   82%,
   97% {
-    color: #ff2483;
+    color: #747474;
     text-shadow: none;
   }
 }
@@ -109,14 +114,12 @@ animation:shake 2.5s infinite, shine 2s forwards,flicker 3s infinite;
 
 @keyframes shine {
   0% {
-    color: #6b1839;
+    color: #979797;
     text-shadow: none;
   }
   100% {
-    color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    color: #fdfdfdc8;
+    
   }
 }
 
@@ -245,3 +248,7 @@ animation:shake 2.5s infinite, shine 2s forwards,flicker 3s infinite;
     opacity: 1;
   }
 }
+
+
+
+
