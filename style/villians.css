@@ -3,11 +3,11 @@
 .villains .vilHead h2 {
     font-size: 4rem;
   width: 500px;
-        /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
+         
         background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    /* color: rgb(87, 32, 32); */
+        -webkit-text-fill-color: transparent; 
+    /* color: white; */
     font-family: 'Avengeance Heroic Avenger Italic';
     margin: 0;
     margin-top: 40px;
@@ -24,8 +24,10 @@
   padding: 0;
   box-sizing: border-box;
   min-height: 700px;
-  /* background: rgb(245, 252, 255); */
-  background: white;
+ 
+  /* background: linear-gradient(rgba(195, 20, 50, 0.7) 0%, rgba(36, 11, 54, 0.7) 74%); */
+  background: rgba(195, 20, 50, 0.4);
+
 }
 .villains-box {
   display: flex;
@@ -83,7 +85,8 @@ object-fit: cover;
   opacity: 1;
 }
 .villains-box .vilCard .shapes .names p{
-  font-family: "Bree Serif", serif;
+  /* font-family: "Bree Serif", serif; */
+  font-family: "Fira Sans", sans-serif;
   font-size: 3.5rem;
   margin: 0;
  
@@ -104,10 +107,10 @@ object-fit: cover;
  .read{
   color: black;
   font-size: 2rem;
-  font-family: "Bree Serif", serif;
+  font-family: "Fira Sans", sans-serif;
 }
 .read a{
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 35px;
   /* background: linear-gradient(to top, #000046, rgb(28,181,224)); */
   background: linear-gradient(45deg,rgba(195,20,50,1),rgba(36,11,54,1));

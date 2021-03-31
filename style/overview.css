@@ -1,65 +1,60 @@
 @font-face {
-    font-family: 'Avengeance Heroic Avenger Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avengeance Heroic Avenger Bold Italic'), url('AVENGEANCE HEROIC AVENGER BI.woff') format('woff');
-    }
-    @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+  font-family: "Avengeance Heroic Avenger Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avengeance Heroic Avenger Bold Italic"),
+    url("AVENGEANCE HEROIC AVENGER BI.woff") format("woff");
+}
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 
-    
+/* main avengers div */
+.OVERVIEW {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  /* justify-content: center; */
+  align-items: center;
+  /* background:white; */
+  height: 500px;
+  /* background: linear-gradient(rgba(195, 20, 50, 0.7) 0%, rgba(36, 11, 54, 0.7) 74%); */
+  background: rgba(195,20,50, 0.4);
   
-  /* main avengers div */
-  .OVERVIEW {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid black;
-    /* justify-content: center; */
-    align-items: center;
-    background:white;
-    height: 500px;
-    
-  }
-  .overview h2{
-    font-size: 80px;
-          /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
-        background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    /* color: rgb(87, 32, 32); */
-    font-family: 'Avengeance Heroic Avenger Italic';
-    text-align: center;
-    margin: 0;
-    margin-top: 35px;
+}
+.overview h2 {
+  font-size: 80px;
+  background: linear-gradient(rgba(195, 20, 50, 1) 0%, rgba(36, 11, 54, 1) 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
-  }
-  
-  .information{
-    margin: 30px;
-    padding-left: 13px;
-    padding-right: 13px;
-    line-height: 1.7vw;
-    word-spacing: 1px;
-    /* float: left; */
-    /* width: 60%; */
-    /* flex-grow: 3; */
-  
-  }
-  .overview p{
-    margin: 0;
-  }
-  .mainLine p{
-    text-align: center;
-    margin: 0;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 24px;
-    margin-top: 10px;
-  
-  }
-  
-  
-  .overviewinfo{
-    display: flex;
-    font-family: 'Fira Sans', sans-serif;
-  }
-  
-  
+   /* color: white; */
+  font-family: "Avengeance Heroic Avenger Italic";
+  text-align: center;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.information {
+  margin: 30px;
+  padding-left: 13px;
+  padding-right: 13px;
+  line-height: 1.7vw;
+  word-spacing: 1px;
+  /* float: left; */
+  /* width: 60%; */
+  /* flex-grow: 3; */
+}
+.overview p {
+  margin: 0;
+}
+.mainLine p {
+  text-align: center;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.overviewinfo {
+  display: flex;
+  font-family: "Fira Sans", sans-serif;
+}
