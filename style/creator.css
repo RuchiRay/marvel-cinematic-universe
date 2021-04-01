@@ -12,6 +12,7 @@ body {
 .creators p {
   position: relative;
   top: 80px;
+  line-height: 81px;
   text-align: center;
   z-index: 1;
   font-size: 64px;

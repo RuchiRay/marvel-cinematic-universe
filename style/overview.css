@@ -11,7 +11,7 @@
 .OVERVIEW {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   /* justify-content: center; */
   align-items: center;
    /* height: 550px; */

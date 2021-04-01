@@ -3,7 +3,7 @@
 .villains .vilHead h2 {
     font-size: 64px;
   width: 455px;
-         
+  line-height: 81px;   
         background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
@@ -19,7 +19,7 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  border: 2px solid rgb(236, 11, 11);
+  /* border: 2px solid rgb(236, 11, 11); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;

@@ -10,6 +10,7 @@
 
 .headTime h2{
   font-size: 80px;
+  line-height: 81px;
 background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;

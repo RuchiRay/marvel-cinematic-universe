@@ -11,6 +11,7 @@
 .stones .heading h2 {
     font-size: 80px;
     width: 450px;
+    line-height: 81px;
           /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
           background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
           -webkit-background-clip: text;
@@ -30,7 +31,7 @@
     flex-direction: column;
    height: 700px;
    background: white;
-   border: 2px solid green;
+   /* border: 2px solid green; */
    
 }
 .box{
