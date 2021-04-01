@@ -18,27 +18,24 @@
 } */
 .headingHero{
   margin: 0;
-  font-size: 2rem;
-  width: 400px;
+  font-size: 40px;
+  width: 475px;
         /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
         background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     /* color: rgb(87, 32, 32); */
     font-family: 'Avengeance Heroic Avenger Italic';
+    margin-top: 35px;
   
 }
-.headingHero h1{
-  margin: 0;
-  margin-top: 35px;
 
-}
 .avenger{
   display: flex;
   align-items: center;
   /* justify-content: center; */
   /* height: 100vh; */
-  height: 1000px;
+  /* height: 1100px; */
   flex-direction: column;
   font-family: 'Fira Sans', sans-serif;
   /* background: linear-gradient(147deg,#f6b323 0%, #f23b26 74%); */
@@ -46,16 +43,16 @@
   /* background-color: #c31432; */
   background: white;
   border: 2px solid black;
-  
+  padding-bottom: 30px;
   
 }
 .blog-card{
   position: relative;
-  height: 370px;
-  width: 95%;
+  height: 380px;
+  width: 75%;
   max-width: 850px;
   /* margin: auto; */
-  margin-bottom:10px;
+  margin-bottom:25px;
   border-radius: 25px;
   background: white;
   box-shadow: 0px 10px 50px rgba(252,56,56,.1);
@@ -98,7 +95,7 @@
   transition-delay: .2s;
 }
 .contentt{
-  padding: 0 20px 0 35px;
+  padding: 0 20px 0 20px;
   /* width: 530px; */
   margin-left: 50px;
   opacity: 0;
@@ -120,7 +117,7 @@
   font-size: 19px;
   margin-bottom: 10px;
   /* line-height: 1.5em; */
-  text-align: justify;
+  /* text-align: justify; */
 }
 .contentt button{
   display: inline-flex;
@@ -140,6 +137,9 @@
 
   
   
+}
+.contentt a{
+  text-decoration: none;
 }
 .contentt button:hover{
   /* background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%); */

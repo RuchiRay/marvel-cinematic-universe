@@ -1,7 +1,7 @@
 .blog-card1{
     position: relative;
-    height: 370px;
-    width: 95%;
+    height: 380px;
+    width: 75%;
     max-width: 850px;
     /* margin: auto; */
     margin-bottom: 12px;
@@ -48,7 +48,7 @@
     transition-delay: .2s;
   }
   .contentt1{
-    padding: 0 20px 0 35px;
+    padding: 0 20px 0 20px;
     /* width: 530px; */
     margin-left: 50px;
     opacity: 0;
@@ -65,12 +65,9 @@
   
   
   .contentt1 .text{
-    /* color: #4e4a67; */
     font-size: 19px;
     margin-bottom: 10px;
-    /* line-height: 1.5em; */
-    text-align: justify;
-  }
+   }
   .contentt1 button{
     display: inline-flex;
     padding: 10px 15px;
@@ -88,10 +85,13 @@
     background:  linear-gradient(147deg, #c31432 0%, #240b36 74%);
 
   }
+  .contentt1 a{
+    text-decoration: none;
+  }
+  
   .contentt1 button:hover{
     /* background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%); */
-    background:  linear-gradient(147deg, #c31432 74%, #240b36 0%);
-
+    background:  linear-gradient(147deg,#240b36 0%, #c31432 74%);
   }
   .sliders1{
     position: absolute;

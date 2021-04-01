@@ -1,6 +1,6 @@
 .stones{
     position: absolute;
-    top: 50px;
+    top: 70px;
     margin: 0px;
     padding: 0;
     /* background: black; */
@@ -9,7 +9,7 @@
     align-items: center;
 }
 .stones .heading h2 {
-    font-size: 5rem;
+    font-size: 80px;
     width: 450px;
           /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
           background:  linear-gradient( rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
@@ -20,9 +20,7 @@
       margin: 0;
       }
   
-  .stones .heading {
-    /* margin-bottom: 20px; */
-  }
+  
   
 .ball{
     position: relative;
@@ -32,6 +30,7 @@
     flex-direction: column;
    height: 800px;
    background: white;
+   border: 2px solid green;
    
 }
 .box{
