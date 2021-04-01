@@ -4,9 +4,11 @@ body {
   box-sizing: border-box;
 }
 .creators {
-  min-height: 750px;
+  /* min-height: 750px; */
   position: relative;
-  top: -45px;
+  /* top: -45px; */
+  padding-bottom: 50px;
+  margin-top: -40px;
   background: black;
 }
 .creators p {
