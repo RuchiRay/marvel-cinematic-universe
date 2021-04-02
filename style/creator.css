@@ -18,12 +18,11 @@ body {
   text-align: center;
   z-index: 1;
   font-size: 64px;
-  /* width: 400px; */
-        /* background: -webkit-linear-gradient( #c31432 0%, #240b36 74%); */
+ 
         background:  linear-gradient(to bottom,rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    /* color: rgb(87, 32, 32); */
+   
     font-family: 'Avengeance Heroic Avenger Italic';
   
   }

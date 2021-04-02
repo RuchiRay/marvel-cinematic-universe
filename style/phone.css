@@ -1,4 +1,10 @@
 @media screen and (max-width: 960px) {
+  /* check */
+  html,body{
+    width: 100%;
+    overflow-x: hidden;
+
+  }
   /* heroes */
   .blog-card {
     height: 415px;
@@ -29,10 +35,10 @@
     .creators p{
         font-size: 50px;
         
-        background:  linear-gradient(to left,rgba(195,20,50,1) 0%, rgba(36,11,54,1) 74%);
+        background:  rgba(36,11,54,1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    
+       color: rgba(36,11,54,1);
     }
     
     
